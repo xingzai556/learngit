@@ -145,4 +145,35 @@ $ git clone git@server-name:path/repo-name.git
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    简易的命令行入门教程:
+Git 全局设置:
+
+git config --global user.name "Mr.蘇"
+git config --global user.email "373603017@qq.com"
+创建 git 仓库:
+
+mkdir datong
+cd datong
+git init
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin git@gitee.com:xingzai556/datong.git
+git push -u origin master
+已有项目?
+
+cd existing_git_repo
+git remote add origin git@gitee.com:xingzai556/datong.git
+git push -u origin master
 
