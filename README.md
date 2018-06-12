@@ -1,3 +1,7 @@
+初始化设置全局变量信息:
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
 一、创建版本库
 首先，选择一个合适的地方，创建一个空目录：
 $ cd /d/appData //进入d盘的appData文件夹
